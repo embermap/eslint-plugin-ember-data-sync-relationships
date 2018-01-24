@@ -9,8 +9,9 @@ module.exports = {
   plugins: [
     'ember-data-sync-relationships'
   ],
+  extends: require.resolve('./base.js'),
   rules: {
     // Custom rules
-    'ember-data-sync-relationships/no-async-relationships': 2
+    'ember-data-sync-relationships/no-async-relationships': 'error'
   }
 };
