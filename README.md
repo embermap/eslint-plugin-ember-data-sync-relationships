@@ -2,50 +2,34 @@
 
 Ensures Ember Data relationships are sync (async: false)
 
-## Installation
+## Using the plugin with Ember CLI
 
-You'll first need to install [ESLint](http://eslint.org):
+### Installation
 
-```
-$ npm i eslint --save-dev
-```
-
-Next, install `eslint-plugin-ember-data-sync-relationships`:
+Install the plugin as a dev dependency in your Ember CLI project.
 
 ```
-$ npm install eslint-plugin-ember-data-sync-relationships --save-dev
+npm install --save-dev eslint-plugin-ember-best-practices
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-ember-data-sync-relationships` globally.
+This will make the plugin available to ESLint.
 
-## Usage
+### Configuration
 
-Add `ember-data-sync-relationships` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+The `ember-cli-eslint` addon blueprint generates a .eslintrc.js configuration file at the root of the project.
 
-```json
-{
-    "plugins": [
-        "ember-data-sync-relationships"
-    ]
-}
+Add the plugin's [recommended](https://github.com/ember-best-practices/eslint-plugin-ember-best-practices/blob/master/config/recommended.js) configuration to the list of extensions:
+
+```js
+// .eslintrc.js
+
+module.exports = {
+  // ...
+  extends: [
+    'eslint:recommended',
+    'plugin:ember-data-sync-relationships/recommended'
+  ],
+  rules: {
+  }
+};
 ```
-
-
-Then configure the rules you want to use under the rules section.
-
-```json
-{
-    "rules": {
-        "ember-data-sync-relationships/rule-name": 2
-    }
-}
-```
-
-## Supported Rules
-
-* Fill in provided rules here
-
-
-
-
-
