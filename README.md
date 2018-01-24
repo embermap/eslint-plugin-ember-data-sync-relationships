@@ -4,7 +4,7 @@ An ESLint plugin that ensures all of the relationships on your Ember Data models
 
 ## Why?
 
-We think async relationships [do more harm than good](https://embermap.com/notes/83-the-case-against-async-relationships). If you agree, you can use this ESLint plugin to help you migrate an app away from async relationships, and once it's fully-sync, ensure no new async relationships are added inadvertently.
+We think async relationships [do more harm than good](https://embermap.com/notes/83-the-case-against-async-relationships). If you agree, you can use this ESLint plugin to help you migrate an app away from async relationships and ensure no new async relationships are added by mistake.
 
 ## Installation
 
