@@ -42,7 +42,7 @@ Using **warn** will show ESLint warnings whenever you build your app, for exampl
 
 If you'd like to start removing async relationships from an existing app that relies on them, this is a good option, since it won't fail your test suite. You can eliminate async relationships one at a time until you arrive at fully synchronous bliss, at which time you can switch this ESLint rule to "error".
 
-Using **error** will add any failures of the rule to your test suite. This is a stronger way to enforce all relationships are sync, since Ember Data's default is async and it can be easy to forget the additional `{ async: false }`.
+Using **error** will add any failures to your test suite. This is a stronger way to enforce all relationships stay sync, since Ember Data's default is async and it can be easy to forget the additional `{ async: false }`.
 
 ## About
 
