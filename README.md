@@ -1,6 +1,6 @@
 # eslint-plugin-ember-data-sync-relationships
 
-An ESLint plugin that ensures all the Ember Data relationships in your Ember app are sync.
+An ESLint plugin that ensures all of the relationships on your Ember Data models are sync.
 
 ## Why?
 
