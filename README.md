@@ -8,28 +8,28 @@ Ensures Ember Data relationships are sync (async: false)
 
 Install the plugin as a dev dependency in your Ember CLI project.
 
-```
+```sh
 npm install --save-dev eslint-plugin-ember-best-practices
 ```
 
 This will make the plugin available to ESLint.
 
-### Configuration
+### Adding the rule
 
-The `ember-cli-eslint` addon blueprint generates a .eslintrc.js configuration file at the root of the project.
-
-Add the plugin's [recommended](https://github.com/ember-best-practices/eslint-plugin-ember-best-practices/blob/master/config/recommended.js) configuration to the list of extensions:
+Add the plugin and rule to your project's `.eslintrc.js`:
 
 ```js
 // .eslintrc.js
 
 module.exports = {
-  // ...
-  extends: [
-    'eslint:recommended',
-    'plugin:ember-data-sync-relationships/recommended'
+
+  plugins: [
+    'ember-data-sync-relationships'
   ],
+
   rules: {
+    "ember-data-sync-relationships/no-async-relationships": "warn" // warn or error
   }
+
 };
 ```

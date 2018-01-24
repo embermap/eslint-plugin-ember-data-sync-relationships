@@ -1,4 +1,6 @@
-# No async relationships
+## No async relationships
+
+### Rule name: `no-async-relationships`
 
 Disallow the use of async relationships.
 
