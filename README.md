@@ -46,4 +46,4 @@ Using **error** will add any failures to your test suite. This is a stronger way
 
 ## About
 
-This library is developed and maintained by [EmberMap](https://embermap.com/). If you're looking to see how your company can get the most out of Ember, please [get in touch](mailto:info@embermap.com)!
+This library is developed and maintained by [EmberMap](https://embermap.com/). If your company is looking to see how it can get the most out of Ember, please [get in touch](mailto:info@embermap.com)!
