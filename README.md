@@ -1,7 +1,7 @@
 # eslint-plugin-ember-data-sync-relationships
 
-[![Build Status](https://travis-ci.org/embermap/eslint-plugin-ember-data-sync-relationships.svg)](https://travis-ci.org/embermap/eslint-plugin-ember-data-sync-relationships)
-[![npm version](https://badge.fury.io/js/eslint-plugin-ember-data-sync-relationships.svg)](http://badge.fury.io/js/eslint-plugin-ember-data-sync-relationships)
+[![Build Status](https://img.shields.io/travis/embermap/eslint-plugin-ember-data-sync-relationships.svg?style=flat-square)](https://travis-ci.org/embermap/eslint-plugin-ember-data-sync-relationships)
+[![npm version](https://img.shields.io/npm/v/eslint-plugin-ember-data-sync-relationships.svg?style=flat-square)](https://img.shields.io/npm/v/eslint-plugin-ember-data-sync-relationships.svg?style=flat-square)
 
 An ESLint plugin that ensures all of your Ember Data relationships are sync.
 
