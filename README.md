@@ -47,6 +47,23 @@ If you'd like to start removing async relationships from an existing app that re
 
 Using **error** will add any failures to your test suite. This is a stronger way to enforce all relationships stay sync, since Ember Data's default is async and it can be easy to forget the additional `{ async: false }`.
 
+### Mirage model false-positives
+
+If you use [Mirage](http://www.ember-cli-mirage.com/) you may see their relationships coming up as false-positives. 
+Exclude them by adding the following to your app's `.eslint.js` overrides array:
+
+```
+overrides: [
+  // don't check mirage models
+  {
+    files: 'mirage/**/*.js',
+    rules: {
+      "ember-data-sync-relationships/no-async-relationships": "off"
+    },
+  }
+]
+```
+
 ## About
 
 This library is developed and maintained by [EmberMap](https://embermap.com/). If your company is looking to see how it can get the most out of Ember, please [get in touch](mailto:info@embermap.com)!
