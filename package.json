@@ -17,7 +17,7 @@
     "require-folder-tree": "^1.4.5"
   },
   "devDependencies": {
-    "eslint": "~3.9.1",
+    "eslint": "~7.25.0",
     "mocha": "^3.1.2"
   },
   "engines": {
